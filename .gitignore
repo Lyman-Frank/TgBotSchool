@@ -1,0 +1,52 @@
+TgBotSchool/
+
+# Python general
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Sensitive files
+.env
+config/config.py
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+
+# Logs
+/logs/*
+!logs/.gitkeep
+
+# Ignore pycache and compiled files in specific directories
+bot/__pycache__/
+config/__pycache__/
+data/__pycache__/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore backup and temporary files
+*.bak
+*.swp
+*.swo
+*.tmp
+~*
+
+# Ignore by editors
+.vscode/
+.idea/
+*.iml
